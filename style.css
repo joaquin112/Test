@@ -1,27 +1,434 @@
-body {
+/* Condensed Universal Reset from http://perishablepress.com/a-killer-collection-of-global-css-reset-styles/*/
 
-	background-color:#222222;
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+	
+	
+/* END CSS RESET */
+
+
+
+/* Style basic elements */
+
+a {
+
+	color:#4b4b4b;
 
 }
 
-#wrapper {
+hr {
 
-	width:760px;
-	margin:0 auto;
-	background-color:white;
-	border-radius:15px;
-	padding:15px;
-
-}
-
-li {
-
-	display:inline;
+	color: #adacac; /* For IE Compatibility */
+	background-color: #adacac;
+	height:1px;
+	border:0;
 
 }
 
 p {
 
+	margin-top:1em;
 	font-size:15px;
+
+}
+
+body {
+
+	background-color:white;
+
+}
+
+#wrapper {
+
+	width:889px;
+	margin:0 auto;
+	background-color:white;
+	padding:15px;
+
+}
+
+h1 {
+
+	font-size:25px;
+	margin-top:30px;
+	margin-bottom:20px;
+	
+
+}
+
+h2 {
+
+	margin:0;
+	padding:20px;
+	font-size:20px;
+	font-size:17px;
+
+}
+
+h2#why-choose {
+
+	padding:0;
+	margin-top:40px;
+	margin-bottom:35px;
+
+}
+
+/* End style basic elements */
+
+
+
+/* Style Lists */
+
+img#button {
+
+	position:relative;
+	top:265px;
+	left:600px;
+	width:193px;
+	height:56px;
+
+}
+
+div#space {
+
+	margin-top:15px;
+	width:100%;
+
+}
+
+div#cta {
+
+	position:relative;
+	padding-bottom:30px;
+
+}
+
+div#content {
+
+	padding-left:15px;
+	padding-right:15px;
+
+}
+
+div#menu {
+
+	margin-top:15px;
+
+}
+
+#menu li {
+
+	display:inline;
+	margin-left:65px;
+	list-style-type:none;
+
+}
+
+#menu li a {
+	
+	font-size:16px;
+	color:#2b2b2b;
+	line-height:40px;
+	text-decoration:none;
+
+}
+
+#menu li a#active {
+
+	font-weight:bold;
+
+}
+
+ul#top-menu {
+
+	text-align:right;
+	margin-right:30px;
+
+}
+
+#top-menu li {
+
+	list-style-type:none;
+	display:inline;
+	margin-left:10px;
+	font-size:12px;
+	color:#2b2b2b;
+	line-height:70px;
+	text-decoration:none;
+
+}
+
+#top-menu li:first-child {
+
+	margin-left:10px;
+
+}
+
+
+#semi ul {
+
+	margin-left:40px;
+	list-style-type:square;
+
+}
+
+#semi li {
+
+	font-size:13px;
+	line-height:2;
+	
+
+}
+
+#semi-right ul {
+
+	margin-left:40px;
+	list-style-type:square;
+
+}
+
+#semi-right li {
+
+	font-size:13px;
+	line-height:2;
+	
+
+}
+
+#footer li{
+
+	list-style-type:none;
+	display:inline;
+	margin-left:10px;
+	font-size:12px;
+	color:#2b2b2b;
+	line-height:40px;
+	text-decoration:none;
+
+}
+
+/* End style lists */
+
+
+#header img {
+
+	float:left;
+
+}
+
+div#menu {
+
+	background-image:url('images/menu.jpg');
+	width:889px;
+	height:40px;
+
+}
+
+div#cta { 
+
+
+	width:889px;
+	height:292px;
+	background-image:url('images/Gradient-BG.jpg');
+
+}
+
+div#semi {
+
+	margin-top:50px;
+	float:left;
+	width:418px;
+	height:169px;
+	background-image: url('images/content.jpg');
+
+}
+
+div#semi-right {
+
+	margin-top:50px;
+	margin-left:450px;
+	width:418px;
+	height:169px;
+	background-image: url('images/content.jpg');
+
+}
+
+img.homepage-icons {
+
+	float:left;
+	margin-right:25px;
+	margin-top:-15px;
+	margin-bottom:25px;
+
+}
+
+div#footer {
+
+	margin-top:40px;
+	text-align:center;	
+
+}
+
+.clear {
+
+	clear:both;
+
+}
+
+p#repair-services {
+
+	text-align:right;
+
+}
+
+div#form {
+
+	position:relative;
+
+}
+
+span.first {
+
+	position:relative;
+	left:100px;
+
+}
+
+#content h2 {
+
+	margin:0;
+	padding:0;
+	font-size:20px;
+	margin-top:35px;
+
+}
+
+#cta h1 {
+
+	position:absolute;
+	top:55px;
+	text-indent:550px;
+	font-size:20px;
+	color:#51a3d9;
+
+}
+
+#cta ul#first-column {
+
+	position:absolute;
+	left:580px;
+	top: 140px;
+	line-height:35px;
+
+}
+
+
+#cta ul#second-column {
+
+	position:absolute;
+	left:700px;
+	top:140px;
+	line-height:35px;
+
+}
+
+#cta img#xp {
+
+	position:absolute;
+	top:55px;
+	left:100px;
+
+}
+
+#cta li {
+
+	list-style-image:url('images/check.png');
+
+}
+
+/* FORM */
+
+label {  
+float: left;  
+width: 10em;  
+margin-right: 1em;  
+}  
+
+input {
+
+	width:220px;
+
+}
+
+input[type="image"] {
+
+	margin-left:11em;
+	width:160px;
+	float:left;
+
+}
+
+input[name="counter"] {
+
+	border: 0 none;
+	width:35px;
+	line-height:35px;
+	margin-left:195px;
+	background:white;
+
+}
+
+span#characters-left {
+
+	color:#545454;
+
+}
+
+p#submit-button {
+
+	margin-top:7px;
+	margin-bottom:55px;
+	padding:0;
+
+}
+
+/* FAQ section */
+
+dt {
+
+	background: url('images/question.jpg') no-repeat;
+	
+	text-indent:45px;
+	
+	margin:15px;
+	margin-top:35px;
+	
+	line-height:34px;
+
+}
+
+dd {
+
+	margin-left:60px;
+
+}
+
+dd img {
+
+	float:left;
+
+}
+
+img#xbox {
+
+	float:right;
 
 }
