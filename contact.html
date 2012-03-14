@@ -40,15 +40,14 @@
 
 	<div id = "header">
 	
-		 <img alt = "Get Gaming Orlando Logo" src = 'images/logo.jpg'/> 
+		 <a href = 'index.html'><img alt = "Get Gaming Orlando Logo" src = 'images/logo.jpg'/></a> 
 		 		
 		<ul id = "top-menu">
 		
 			<li><a href = 'contact.html'>Contact Us</a></li>
 			
-			<li><a href = '#'>About Us</a></li>
+			<li><a href = 'about.html'>About Us</a></li>
 			
-			<li><a href = '#'>Terms of Use</a></li>
 		
 		</ul>
 	
@@ -64,11 +63,11 @@
 		
 			<li><a href = 'faq.html'>FAQs</a></li>
 			
-			<li><a href = '#'>Repairs</a></li>
+			<li><a href = 'repair.html'>Repairs</a></li>
 			
-			<li><a href = '#'>Coupons</a></li>
+			<li><a href = 'coupons.html'>Coupons</a></li>
 			
-			<li><a href = '#'>Service Area & Hours</a></li>
+			<li><a href = 'service-area-hours.html'>Service Area & Hours</a></li>
 			
 			<li><a id = "active" href = 'contact.html'>Contact Us</a></li>
 			
@@ -85,27 +84,27 @@
 			
 	
 				
-				<p><label for = "name">First Name:</label><input type = 'text' name = "name" id = "name" placeholder = "Your first name"></p>
+				<p><label for = "name">First Name:</label><input tabindex = "1" type = 'text' name = "name" id = "name" placeholder = "Your first name"></p>
 				
-				<p><label for = "last-name">Last name:</label><input type = 'text' name = "last-name" id = "last-name" placeholder = "Your last name"></p>
-				
-				
-				<p><label for = "email">Email:</label><input type = 'text' id = 'email' name = 'email' placeholder = 'example@example.com'></p>
+				<p><label for = "last-name">Last name:</label><input tabindex = "2" type = 'text' name = "last-name" id = "last-name" placeholder = "Your last name"></p>
 				
 				
+				<p><label for = "email">Email:</label><input tabindex = "3" type = 'text' id = 'email' name = 'email' placeholder = 'example@example.com'></p>
 				
-				<p><label for = "phone">Phone:</label><input type = "text" name = "phone" id = "phone" placeholder = "407-972-3129"/></p>			
+				
+				
+				<p><label for = "phone">Phone:</label><input tabindex = "4" type = "text" name = "phone" id = "phone" placeholder = "407-972-3129"/></p>			
 				
 				
 				<p><label for = "comment">Your Comment:</label>
 				
 
-				<textarea onblur="textCounter(this,this.form.counter,2000);" onkeyup="textCounter(this,this.form.counter,2000);" rows = '7' cols = '60' id = "comment" name = "comment" placeholder = "Enter your comments here!"></textarea>
+				<textarea tabindex = "5" onblur="textCounter(this,this.form.counter,600);" onkeyup="textCounter(this,this.form.counter,600);" rows = '7' cols = '60' id = "comment" name = "comment" placeholder = "Enter your comments here!"></textarea>
 				</p>
 			
 				<p id = "submit-button">
 				
-					<input alt = "submit" type = 'image' name = "submit" src = "images/send.jpg"> <input onblur="textCounter(this.form.recipients,this,2000);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="2000" name="counter"> <span id = "characters-left">characters left.</span>
+					<input tabindex = "6" alt = "submit" type = 'image' name = "submit" src = "images/send.jpg"> <input onblur="textCounter(this.form.recipients,this,600);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="600" name="counter"><span id = "characters-left">characters left.</span>
 				
 				</p>
 			
@@ -124,9 +123,9 @@
     	 
     	 <ul>
     	 
-    	 <li><a href = '/'>Home</a></li>
+    	 <li><a href = 'index.html'>Home</a></li>
     	 
-    	 <li><a href = '#'>About Us</a></li>
+    	 <li><a href = 'about.html'>About Us</a></li>
     	 
     	 <li><a href = 'contact.html'>Contact Us</a></li>
     	 

@@ -1,0 +1,5 @@
+/* This is the Print stylesheet! Just for the coupons. */
+
+
+body {visibility:hidden;}
+.print {visibility:visible;}

@@ -33,6 +33,12 @@ hr {
 
 }
 
+strong {
+
+	font-weight:bold;
+
+}
+
 p {
 
 	margin-top:1em;
@@ -43,6 +49,8 @@ p {
 body {
 
 	background-color:white;
+	font-family:helvetica, sans-serif;
+	color:#333333;
 
 }
 
@@ -97,12 +105,14 @@ img#button {
 
 }
 
+/*
 div#space {
 
 	margin-top:15px;
 	width:100%;
 
 }
+*/
 
 div#cta {
 
@@ -127,7 +137,7 @@ div#menu {
 #menu li {
 
 	display:inline;
-	margin-left:65px;
+	margin-left:60px;
 	list-style-type:none;
 
 }
@@ -386,6 +396,12 @@ input[name="counter"] {
 
 }
 
+input[type="button"] {
+
+	width:300px;
+
+}
+
 span#characters-left {
 
 	color:#545454;
@@ -430,5 +446,93 @@ dd img {
 img#xbox {
 
 	float:right;
+
+}
+
+img.print {
+	
+	width:300px;
+	margin:0 auto;
+
+}
+
+img.imageleft {
+
+	float:left;
+	margin-right:15px;
+
+}
+
+div#coupon {
+
+	width:300px;
+	margin:0 auto;
+
+}
+
+img.print {
+
+	float:left;
+	
+	margin-right:55px;
+
+}
+
+/* Service Hours Box */
+
+div#service-hours {
+
+	float:left;
+	width:300px;
+
+}
+
+span#services {
+
+	line-height:2.6;
+
+}
+
+div#service-hours #normal {
+
+	line-height:1;
+
+}
+
+
+div#map {
+
+	width:500px;
+	float:right;
+
+}
+
+div#map img {
+
+	padding-top:10px;
+	/* float:left; */
+
+}
+
+#service-hours h2 {
+
+	margin:0;
+	padding:0;
+
+}
+
+#map h2 {
+
+	margin:0;
+	padding:0;
+
+}
+
+ul.repair {
+
+	margin-top:40px;
+	list-style-type:square;
+	line-height:1.5;
+	margin-left:30px;
 
 }
